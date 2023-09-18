@@ -7,5 +7,29 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   color: red;
+  margin: 6em;
+  background: black;
+}
+
+.container {
+  background: white;
+  padding: 2em;
+}
+
+.post-header {
+  background: green;
+}
+
+.post-image {
+  background: pink;
+}
+
+.post-icons {
+  background: blue;
+}
+
+.post-body {
+  background: lightblue;
 }
