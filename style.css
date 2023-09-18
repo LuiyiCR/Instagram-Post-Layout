@@ -8,22 +8,46 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: red;
-  margin: 6em;
+  color: black;
   background: black;
+  margin: 3em;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   background: white;
-  padding: 2em;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
 }
 
+.icon {
+  width: 2em;
+  height: 2em;
+}
 .post-header {
   background: green;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+.menu-svg {
+  background: red;
+  margin-left: auto;
 }
 
 .post-image {
   background: pink;
+}
+
+img {
+  max-width: 400px;
 }
 
 .post-icons {
