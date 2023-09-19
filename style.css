@@ -15,7 +15,6 @@ body {
   color: black;
   background: black;
   margin: 3em;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,16 +22,15 @@ body {
 
 .container {
   background: white;
-  max-width: 50%;
+  max-width: 350px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  max-height: 90vh;
 }
 
 .icon,
 .right-icon {
-  width: 2em;
-  height: 2em;
+  font-size: 2em;
 }
 
 .right-icon {
@@ -69,10 +67,4 @@ img {
 .post-body {
   padding: 0 1em;
   padding-bottom: 1em;
-}
-
-@media only screen and (max-width: 720px) {
-  .container {
-    max-width: 100%;
-  }
 }
