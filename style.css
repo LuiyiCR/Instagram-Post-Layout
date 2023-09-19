@@ -18,6 +18,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
@@ -25,7 +27,7 @@ body {
   max-width: 350px;
   display: flex;
   flex-direction: column;
-  max-height: 90vh;
+  height: 90%;
 }
 
 .icon,
